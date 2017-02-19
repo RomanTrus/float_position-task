@@ -1,0 +1,127 @@
+* {
+	box-sizing:border-box;
+	
+}
+body {
+	height: 2000px;
+	font-family: 'PT Sans', sans-serif;
+}
+h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size:18px;}
+p {
+	font-size: 12px;
+	margin-bottom: 6px;
+	margin-top: 0px;
+
+}
+.wrap {
+	position:relative;
+	width:520px;
+	margin:auto;
+	margin-top: 200px;
+}
+.frame {
+	width: 520px;
+	height: 750px;
+	border-style: solid;
+	border-width: 3px;
+	border-color:black;
+	display: block;
+	position: relative;
+
+}
+
+.frame:nth-child(1) {
+	background-color: #ebebeb;
+	z-index: 3;
+	padding: 20px 30px 28px 30px;
+}
+
+.frame:nth-child(2) {
+	background-color: #cccccc;
+	left: 20px;
+	margin-top: -730px;
+	z-index: 2;
+}
+
+.frame:nth-child(3) {
+	background-color: #acacac;
+	left: 40px;
+	margin-top: -731px;
+	z-index: 1;
+}
+
+.mark {
+	width: 110px;
+	height:35px;
+	width: 110px;
+	height: 35px;
+	position: absolute;
+	background-color: blue;
+	top: 40px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	
+}
+
+.frame:nth-child(1) .mark {
+	left: 490px;
+	background-color:#f68e56;
+}
+.frame:nth-child(2) .mark {
+	left: 460px;
+	background-color:#39b54a;
+}
+.frame:nth-child(3) .mark {
+	left: 425px;
+	background-color:#00aeef;
+}
+
+.left_pos{
+	float: left;
+	margin-right: 22px;
+}
+.right_pos {
+	float: right;
+	margin-left: 22px;
+}
+.content {
+	display: inline-block;
+}
+.footer p {
+	font-size: 9px;
+	text-align: center;
+}
+.share {
+	width: 90px;
+	height: 70px;
+	background-color: orange;
+	position:fixed;
+	right: 0px;
+	bottom:0px;
+	z-index: 4;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+.share p {
+	font-size:16px;
+	margin-top: 10px;
+	text-align: center;
+}
+.share img {
+	display: block;
+	margin: auto;
+}
+.jokes {
+	margin-bottom: 10px;
+}
+.jokes:nth-child(odd) {
+	margin-left: 60px;
+}
