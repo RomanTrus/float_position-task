@@ -94,9 +94,11 @@ p {
 .content {
 	display: inline-block;
 }
-.footer p {
-	font-size: 9px;
-	text-align: center;
+.jokes {
+	margin-bottom: 10px;
+}
+.jokes:nth-child(odd) {
+	margin-left: 60px;
 }
 .share {
 	width: 90px;
@@ -119,9 +121,7 @@ p {
 	display: block;
 	margin: auto;
 }
-.jokes {
-	margin-bottom: 10px;
-}
-.jokes:nth-child(odd) {
-	margin-left: 60px;
+footer  {
+	font-size: 9px;
+	text-align: center;
 }
